@@ -1,0 +1,78 @@
+
+
+/*original (yellow) background color: #FBDA31*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.outer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #FBDA31;
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+section {
+  align-items: center;
+  display: flex;
+
+  /*flex-basis: 30%; this was causing so many issues on sizing my items so I got rid of it */
+
+  flex-direction: column;
+  max-width: 760px;
+  background-color: #ffffff;
+  padding: 2rem 1%;
+  width: 700px;
+}
+
+.forms {
+  width: 75%;
+}
+
+.forms input {
+  border: 1px solid lightgray;
+  width: 250px;
+  height: 30px;
+}
+
+#top-forms {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#bottom-forms {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.profile-pic_submit-button {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 75%;
+}
+
+.signup-button {
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 250px;
+  height: 50px;
+}
