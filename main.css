@@ -38,6 +38,17 @@ section {
   width: 700px;
 }
 
+.radio-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 75%;
+}
+
+.radio-buttons input {
+
+}
+
 .forms {
   width: 75%;
 }
